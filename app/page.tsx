@@ -1,4 +1,6 @@
 
+export const dynamic = 'force-dynamic';
+
 const wait = (ms: number) => new Promise((resolve)=> setTimeout(resolve, ms))
 
 export default async function Home() {
